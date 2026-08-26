@@ -26,6 +26,7 @@ remotePaths.forEach((path) => {
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+	base: '/muramasa-on-the-web/',
 	plugins: [
 		react(),
 		{
